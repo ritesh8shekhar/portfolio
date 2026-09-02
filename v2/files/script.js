@@ -5,24 +5,30 @@
 const PROJECTS = [
   {
     title: "Financial Management & Expense Intelligence System",
-    desc: "Full-stack platform to manage income, expenses, budgets, savings and investments. Built dashboards for spending analytics, category breakdowns and monthly trends. Implemented JWT authentication, REST APIs, recurring expenses, filtering and report generation.",
-    tags: ["React.js", "Tailwind CSS", "Node.js", "Express.js", "MongoDB", "JWT", "Chart.js"],
+    period: "Feb 2026 - Mar 2026",
+    desc: "Built a full-stack financial platform handling <strong>100+ test transactions</strong>. Implemented <strong>JWT authentication</strong>, dashboards, transaction CRUD, recurring expenses, search, filtering and REST APIs.",
+    tags: ["React.js", "Tailwind CSS", "Node.js", "Express.js", "MongoDB", "REST APIs"],
+    image: "financial.png",
     category: "web",
     demoUrl: "#",
     codeUrl: "#"
   },
   {
     title: "AI Resume Analyzer & Job Match Platform",
-    desc: "AI-powered resume analyzer using NLP and LLMs to evaluate resumes against job descriptions. Extracted skills, education, experience and projects from resumes. Generated match scores, missing skills and improvement suggestions.",
-    tags: ["Python", "FastAPI", "NLP", "LLMs", "React.js", "MongoDB", "OpenAI API", "Docker"],
+    period: "Dec 2025 - Jan 2026",
+    desc: "Developed an <strong>AI-powered resume analyzer</strong> tested with <strong>10+ sample resumes</strong>. Applied <strong>NLP techniques</strong> and built job matching with <strong>compatibility scores</strong> and improvement suggestions.",
+    tags: ["Python", "FastAPI", "React.js", "MongoDB", "NLP", "REST APIs"],
+    image: "AI.png",
     category: "ai",
     demoUrl: "#",
     codeUrl: "#"
   },
   {
-    title: "CampusConnect — College Community Platform",
-    desc: "Full-stack platform for posts, communities, events and student interactions. Implemented real-time chat and notifications using WebSockets, comments, reactions, profiles and follows. Built event management for creation, registrations and reminders.",
-    tags: ["React.js", "Tailwind CSS", "Node.js", "Express.js", "MongoDB", "Socket.IO", "JWT", "Cloudinary"],
+    title: "CampusConnect",
+    period: "Sep 2025 - Oct 2025",
+    desc: "Developed a college community platform with <strong>real-time chat and notifications</strong>, posts, profiles and event management supporting <strong>20+ test events</strong>.",
+    tags: ["React.js", "Tailwind CSS", "Node.js", "Express.js", "MongoDB", "Socket.IO"],
+    image: "Campus.png",
     category: "web",
     demoUrl: "#",
     codeUrl: "#"
@@ -32,28 +38,20 @@ const PROJECTS = [
 // FEATURED / HIGHLIGHTS removed — section intentionally omitted
 
 const CERTS = [
-  { title: "Machine Learning Certification", issuer: "Professional Certification", detail: "Core ML concepts, supervised and unsupervised learning, model evaluation and deployment.", link: "#" },
-  { title: "Big Data Certification", issuer: "Professional Certification", detail: "Distributed systems, data processing frameworks and large-scale data analytics.", link: "#" },
-  { title: "Data Science Certification", issuer: "Professional Certification", detail: "Statistical analysis, data visualization, predictive modeling and insights extraction.", link: "#" },
-  { title: "Cybersecurity MOOC", issuer: "Online Course", detail: "Security fundamentals, threat analysis, encryption and best practices.", link: "#" },
-  { title: "Time Management Certification", issuer: "Professional Development", detail: "Productivity techniques, priority management and effective scheduling.", link: "#" },
-  { title: "Leadership Fundamentals MOOC", issuer: "Online Course", detail: "Leadership principles, team management, decision-making and communication.", link: "#" }
+  { title: "Machine Learning & Artificial Intelligence: Supervised Learning, Model Training & Evaluation", issuer: "Coursera", detail: "Jul 2026", link: "#" },
+  { title: "Programming in C++: Object-Oriented Programming & Advanced Problem Solving", issuer: "Microsoft Azure", detail: "Jun 2026", link: "#" },
+  { title: "Python for Data Science, AI & Development", issuer: "IBM / Coursera", detail: "Nov 2025", link: "#" },
+  { title: "Team Management & Leadership Fundamentals", issuer: "Udemy", detail: "Oct 2025", link: "#" },
+  { title: "Web Development Fundamentals: HTML, CSS, JavaScript & Web Design", issuer: "Infosys Springboard", detail: "Oct 2025", link: "#" }
 ];
 
 const EXPERIENCE = [
   {
     role: "Full-Stack Developer",
-    org: "Rage Bloods Esports (Freelance)",
-    period: "July 2026",
-    desc: "Developed and deployed a full-stack esports website with responsive frontend, backend services, REST APIs and database integration. Implemented client-specific features and frontend-backend workflows based on project requirements. Managed testing, debugging, revisions and deployment using Git and GitHub.",
-    tags: ["React.js", "Node.js", "Express.js", "MongoDB", "REST APIs", "Git"]
-  },
-  {
-    role: "Full-Stack Developer",
-    org: "Gym Life (Freelance)",
-    period: "June 2026",
-    desc: "Developed and deployed a full-stack fitness website with responsive frontend, backend services, REST APIs and database integration. Implemented application workflows, CRUD operations and frontend-backend integration based on client requirements. Managed testing, revisions and deployment using Git and GitHub.",
-    tags: ["React.js", "Node.js", "Express.js", "MongoDB", "REST APIs", "Git"]
+    org: "Rage Bloods Esports | Freelance",
+    period: "Jun 2026 - Jul 2026",
+    desc: "Developed and deployed a <strong>full-stack esports website</strong>, handling frontend, backend, database integration and production deployment. Implemented client requirements, <strong>API integration</strong> and application workflows across the stack. Managed testing, debugging, revisions and source code using Git and GitHub.",
+    tags: ["React.js", "Node.js", "Express.js", "MongoDB", "REST APIs", "Git", "GitHub"]
   }
 ];
 
@@ -62,83 +60,36 @@ const ACHIEVEMENTS = [
     title: "1st Place — Uttarakhand Hackathon",
     event: "Uttarakhand Hackathon",
     result: "Winner",
-    desc: "Led a team to build an innovative solution, judged best overall project among all competing teams.",
+    desc: "Secured <strong>1st Place</strong> at the Uttarakhand Hackathon by developing and presenting an innovative technology solution.",
     featured: true
   },
   {
     title: "Runner-up — Cognita LPU Hackathon",
     event: "Cognita LPU Hackathon",
     result: "Runner-up",
-    desc: "Built a competitive solution among top teams at LPU hackathon."
-  },
-  {
-    title: "Runner-up — YouthVibe LPU Hackathon",
-    event: "YouthVibe LPU Hackathon",
-    result: "Runner-up",
-    desc: "Developed an innovative project ranked among top submissions."
+    desc: "Achieved <strong>Runner-up</strong> position at the Cognita LPU Hackathon."
   },
   {
     title: "Runner-up — IIT Roorkee Hackathon",
     event: "IIT Roorkee Hackathon",
     result: "Runner-up",
-    desc: "Competing against top engineering talent, ranked among final top teams."
+    desc: "Achieved <strong>Runner-up</strong> position at the IIT Roorkee Hackathon."
   },
   {
     title: "Selected — Smart India Hackathon (SIH)",
     event: "Smart India Hackathon",
     result: "Idea Selection",
-    desc: "Selected for Smart India Hackathon 2024, a national-level innovation competition."
+    desc: "Selected for the <strong>Smart India Hackathon</strong> Idea Selection stage for an innovative problem-solving concept."
   },
   {
-    title: "100+ Problems Solved on LeetCode",
-    event: "LeetCode",
+    title: "50+ LeetCode and 100+ Codeforces Problems Solved",
+    event: "LeetCode & Codeforces",
     result: "Achievement",
-    desc: "Solved 100+ Data Structures and Algorithms problems on LeetCode."
-  },
-  {
-    title: "200+ Problems Solved on Codeforces",
-    event: "Codeforces",
-    result: "Pupil",
-    desc: "Solved 200+ competitive programming problems on Codeforces, demonstrating strong problem-solving skills in algorithms and data structures."
+    desc: "Solved <strong>50+ LeetCode</strong> and <strong>100+ Codeforces</strong> problems, strengthening DSA and competitive programming skills."
   }
 ];
 
-const SOCIALS = [
-  {
-    platform: "GitHub",
-    handle: "@ritesh8shekhar",
-    stat: "Open source projects",
-    url: "https://github.com/ritesh8shekhar",
-    icon: "github",
-    color: "#161B22"
-  },
-  {
-    platform: "LeetCode",
-    handle: "@ritesh8shekhar",
-    stat: "100+ solved",
-    url: "https://leetcode.com/ritesh8shekhar",
-    icon: "leetcode",
-    color: "#8B4513"
-  },
-  {
-    platform: "Codeforces",
-    handle: "@ritesh8shekhar",
-    stat: "200+ solved",
-    url: "https://codeforces.com/profile/ritesh8shekhar",
-    icon: "codeforces",
-    color: "#1E3A5F"
-  },
-  {
-    platform: "LinkedIn",
-    handle: "@ritesh8shekhar",
-    stat: "Let's connect",
-    url: "https://linkedin.com/in/ritesh8shekhar",
-    icon: "linkedin",
-    color: "#0A4A6E"
-  }
-];
-
-const RESUME_URL = "#";
+const RESUME_URL = "RiteshShekharCV.pdf";
 
 /* =============================================================
    THEME TOGGLE
@@ -393,56 +344,6 @@ if (window.matchMedia('(hover:hover) and (pointer:fine)').matches && !reduceMoti
 }
 
 /* =============================================================
-   HERO TERMINAL TYPING ANIMATION
-   ============================================================= */
-const typeTarget = document.getElementById('typeTarget');
-const cursorBlink = document.getElementById('cursorBlink');
-const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-
-const CODE_LINES = [
-  { text: 'const developer = {', cls: '' },
-  { text: '  name: "Ritesh Shekhar",', cls: 'prop' },
-  { text: '  university: "Lovely Professional University",', cls: 'prop' },
-  { text: '  course: "Computer Science and Engineering",', cls: 'prop' },
-  { text: '  year: "2nd Year",', cls: 'prop' },
-  { text: '  cgpa: 9.1,', cls: 'prop' },
-  { text: '  leetcode: "100+ solved",', cls: 'prop' },
-  { text: '  codeforces: "200+ solved",', cls: 'prop' },
-  { text: '  techStack: ["React", "Node.js", "C++", "Python", "MongoDB"],', cls: 'prop' },
-  { text: '};', cls: '' }
-];
-
-function typeSequence(){
-  if (reduceMotion){
-    typeTarget.textContent = CODE_LINES.map(l => l.text).join('\n');
-    return;
-  }
-  let lineIndex = 0, charIndex = 0;
-  let output = '';
-
-  function step(){
-    if (lineIndex >= CODE_LINES.length){
-      cursorBlink.style.opacity = 1;
-      return;
-    }
-    const line = CODE_LINES[lineIndex].text;
-    if (charIndex <= line.length){
-      const typedSoFar = output + line.slice(0, charIndex);
-      typeTarget.textContent = typedSoFar;
-      charIndex++;
-      setTimeout(step, 18 + Math.random() * 22);
-    } else {
-      output += line + '\n';
-      lineIndex++;
-      charIndex = 0;
-      setTimeout(step, 140);
-    }
-  }
-  step();
-}
-typeSequence();
-
-/* =============================================================
    STAT COUNTERS (animate on scroll into view)
    ============================================================= */
 const statObserver = new IntersectionObserver((entries) => {
@@ -488,11 +389,13 @@ function renderProjects(filter = 'all'){
     card.setAttribute('aria-label', `${p.title} — open demo`);
     card.innerHTML = `
       <div class="project-thumb">
-        ${p.title.split(' ')[0]}
+        <img src="${p.image}" alt="${p.title}" loading="lazy">
       </div>
       <div class="project-body">
         <h3 class="project-title">${p.title}</h3>
+        <div class="timeline-period">${p.period}</div>
         <p class="project-desc">${p.desc}</p>
+        <div class="project-stack-label">Tech Stack:</div>
         <div class="project-tags">
           ${p.tags.map(t => `<span class="tag">${t}</span>`).join('')}
         </div>
@@ -568,6 +471,7 @@ EXPERIENCE.forEach((job, i) => {
       <h3 class="timeline-role">${job.role}</h3>
       <div class="timeline-org">${job.org}</div>
       <p class="timeline-desc">${job.desc}</p>
+      <div class="project-stack-label">Tech Stack:</div>
       <div class="project-tags">${job.tags.map(t => `<span class="tag">${t}</span>`).join('')}</div>
     </div>
   `;
@@ -611,13 +515,18 @@ ACHIEVEMENTS.filter(a => !a.featured).forEach(a => {
    RENDER SOCIALS
    ============================================================= */
 const SOCIAL_ICONS = {
-  github: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.9a3.4 3.4 0 0 0-1-2.6c3 -.3 6-1.5 6-6.6a5.1 5.1 0 0 0-1.4-3.5 4.8 4.8 0 0 0-.1-3.5s-1.1-.4-3.6 1.3a12.4 12.4 0 0 0-6.6 0C6.1 1.5 5 2 5 2a4.8 4.8 0 0 0-.1 3.5A5.1 5.1 0 0 0 3.5 9c0 5 3 6.3 6 6.6a3.4 3.4 0 0 0-1 2.6V22"/></svg>`,
-  leetcode: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 3l-8 9h6l-2 9 9-11h-6l1-7z"/></svg>`,
-  codeforces: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="9" width="5" height="12" rx="1"/><rect x="9.5" y="4" width="5" height="17" rx="1"/><rect x="17" y="12" width="5" height="9" rx="1"/></svg>`,
+  github: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.9a3.4 3.4 0 0 0-1-2.6c3-.3 6-1.5 6-6.6a5.1 5.1 0 0 0-1.4-3.5 4.8 4.8 0 0 0-.1-3.5s-1.1-.4-3.6 1.3a12.4 12.4 0 0 0-6.6 0C6.1 1.5 5 2 5 2a4.8 4.8 0 0 0-.1 3.5A5.1 5.1 0 0 0 3.5 9c0 5 3 6.3 6 6.6a3.4 3.4 0 0 0-1 2.6V22"/></svg>`,
   linkedin: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>`,
-  x: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4l16 16M20 4L4 20"/></svg>`,
-  devto: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M6 9v6M6 9h2a2 2 0 0 1 0 4H6M13 9v6h3M18 9v6l2-3-2-3"/></svg>`
+  leetcode: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 3l-8 9h6l-2 9 9-11h-6l1-7z"/></svg>`,
+  codeforces: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="9" width="5" height="12" rx="1"/><rect x="9.5" y="4" width="5" height="17" rx="1"/><rect x="17" y="12" width="5" height="9" rx="1"/></svg>`
 };
+
+const SOCIALS = [
+  { platform: "GitHub", handle: "@ritesh8shekhar", stat: "GitHub profile", url: "https://github.com/ritesh8shekhar", icon: "github", color: "#161B22" },
+  { platform: "LeetCode", handle: "@ritesh8shekhar", stat: "50+ solved", url: "https://leetcode.com/ritesh8shekhar", icon: "leetcode", color: "#8B4513" },
+  { platform: "Codeforces", handle: "@ritesh8shekhar", stat: "100+ solved", url: "https://codeforces.com/profile/ritesh8shekhar", icon: "codeforces", color: "#1E3A5F" },
+  { platform: "LinkedIn", handle: "@ritesh8shekhar", stat: "LinkedIn profile", url: "https://www.linkedin.com/in/ritesh8shekhar", icon: "linkedin", color: "#0A4A6E" }
+];
 
 const socialGrid = document.getElementById('socialGrid');
 SOCIALS.forEach(s => {
@@ -626,13 +535,12 @@ SOCIALS.forEach(s => {
   card.href = s.url;
   card.target = '_blank';
   card.rel = 'noopener';
-  card.style.setProperty('--thumb-bg', s.color || 'var(--cyan-soft)');
-  const displayUrl = s.url.replace('https://', '');
+  card.style.setProperty('--thumb-bg', s.color);
   card.innerHTML = `
     <div class="social-thumb">
-      <span class="social-thumb-url">${displayUrl}</span>
+      <span class="social-thumb-url">${s.url.replace('https://', '')}</span>
       <div class="social-thumb-glow"></div>
-      <div class="social-thumb-icon">${SOCIAL_ICONS[s.icon] || ''}</div>
+      <div class="social-thumb-icon">${SOCIAL_ICONS[s.icon]}</div>
     </div>
     <div class="social-body">
       <div class="social-body-info">
@@ -672,6 +580,7 @@ SOCIALS.forEach(s => {
     let offset = 0;
     let contentWidth = 0;
     const speed = 40; // px per second
+    const repeatCount = 3;
 
     function buildDuplicate(){
       // on desktop and when motion not reduced, duplicate the base content once for seamless loop
@@ -680,14 +589,19 @@ SOCIALS.forEach(s => {
         track.dataset.duplicated = 'false';
       } else {
         if (track.dataset.duplicated !== 'true'){
-          track.innerHTML = track.dataset.base + track.dataset.base;
+          track.innerHTML = track.dataset.base.repeat(repeatCount);
           track.dataset.duplicated = 'true';
         }
       }
       // measure
       // allow layout to settle
       requestAnimationFrame(() => {
-        contentWidth = track.scrollWidth / (track.dataset.duplicated === 'true' ? 2 : 1);
+        if (track.dataset.duplicated === 'true') {
+          const firstCycleEnd = track.children[SOCIALS.length];
+          contentWidth = firstCycleEnd ? firstCycleEnd.offsetLeft : track.scrollWidth / repeatCount;
+        } else {
+          contentWidth = track.scrollWidth;
+        }
         // reset offset to avoid jump
         offset = 0;
         track.style.transform = 'translateX(0px)';
